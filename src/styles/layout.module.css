@@ -1,0 +1,38 @@
+.layout {
+
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 0 10px;
+  margin-left: auto;
+  margin-right: 5em;
+}
+
+.links {
+  display: inline-block;
+  text-align: right;
+  align-self: center;
+}
+
+.linkText {
+  composes: textAnimation from './util.css';
+}
+
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 400;
+  padding-bottom: 8px;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  border-color: white;
+}
+
+.footer {
+  text-align: center;
+}
