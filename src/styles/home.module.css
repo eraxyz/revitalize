@@ -1,0 +1,27 @@
+.heroTextBlock {
+  background-color: #4444448c;
+  color: white;
+  margin: 2em;
+  padding: 1em;
+  border-radius: 5px;
+  height: fit-content;
+}
+
+.heroTextBlock h2 {
+  font-size: xx-large;
+}
+
+.heroTextBlock h3 {
+  font-size: x-large;
+  font-weight: 400;
+}
+
+.title {
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.subtitle {
+  color: white;
+  font-size: x-large;
+}
