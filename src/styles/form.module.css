@@ -1,0 +1,74 @@
+.textInputContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0.25em;
+  width: -webkit-fill-available;
+}
+
+.textInput {
+  border: none;
+  border-bottom: 1px solid black;
+  height: 19px;
+}
+
+.textArea {
+  border: none;
+  border-bottom: 1px solid black;
+  resize: none;
+  height: 10em;
+}
+
+.selectInput {
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+  width: auto;
+}
+
+.inputLabel {
+  font-size: small;
+}
+
+@media only screen and (max-width: 706px) {
+  .inputLabel {
+    margin-top: 1.5em;
+  }
+}
+
+.error {
+  color: darkred;
+  font-size: small;
+  margin-bottom: -1.25em;
+}
+
+.formRow {
+  margin: 0 0.5em 2em 0;
+}
+
+.inputFieldMargins {
+  margin: 0.5em 0 1.5em 0;
+}
+
+@media only screen and (max-width: 706px) {
+  .inputFieldMargins {
+    margin: 0;
+  }
+}
+
+
+.submitButton {
+  display: flex;
+  margin: auto;
+  margin-top: 1.5em;
+  padding: 0.25em 0.5em;
+  background-color: var(--color-primary-500);
+  color: var(--color-accent-500);
+  border-radius: 5px;
+  border-color: var(--color-primary-500);
+  font-size: medium;
+  font-weight: 600;
+  width: 30%;
+  justify-content: center;
+  composes: buttonAnimation from './util.css';
+}
+
